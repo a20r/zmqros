@@ -1,8 +1,0 @@
-
-<launch>
-    <node name="zmqros_ns" pkg="zmqros" type="run_ns.py"
-        output="screen">
-        <param name="host" type="string" value="localhost"/>
-        <param name="port" type="int" value="8000"/>
-    </node>
-</launch>

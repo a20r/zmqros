@@ -1,0 +1,9 @@
+
+<launch>
+    <node name="zmqros_agent" pkg="zmqros" type="run_agent.py"
+        output="screen">
+        <param name="ns_host" type="string" value="localhost"/>
+        <param name="ns_port" type="int" value="8000"/>
+        <param name="name" type="string" value="wallarelvo"/>
+    </node>
+</launch>
